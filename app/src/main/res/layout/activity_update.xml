@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:padding="10sp">
+
+    <EditText
+        android:id="@+id/title_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="110dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Title"/>
+
+    <EditText
+        android:id="@+id/author_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="110dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Author"/>
+
+    <EditText
+        android:id="@+id/pages_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="110dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Number of pages"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:layout_marginRight="107dp"
+        android:text="Update"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_marginRight="107dp"
+        android:text="Delete"
+        android:textColor="#EF5350"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
